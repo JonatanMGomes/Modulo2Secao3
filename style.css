@@ -1,0 +1,15 @@
+header{
+    text-align: center;
+}
+
+.theForm{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.field{
+    width: 250px;
+    margin: 25px;
+}
