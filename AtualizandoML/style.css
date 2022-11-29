@@ -1,0 +1,80 @@
+/* CSS reset */
+body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+/* CSS reset fim */
+
+header {
+    background-color: yellow;
+    height: 14vh;
+    width: 100vw;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.search, nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+}
+
+nav {
+    border-style: solid;
+}
+
+.navOption {
+    margin-left: 2vw;
+}
+
+.navOption:hover {
+    transition: 0.5s;
+    padding: 0.5%;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.benefits {
+    background-color: white;
+    height: 15vh;
+    width: 80vw;
+    margin: 10px 10vw;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer {
+    width: 18vw;
+    margin-left: 2vw;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.columnsConfig{
+    text-align: center;
+    margin: 10px;
+}
+
+@media (width < 500px){
+    .benefits{
+        display: none;
+    }
+}
